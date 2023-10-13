@@ -82,33 +82,33 @@ Markdown. В качестве отчёта необходимо предоста
 
 1. Для выполнения лабораторной работы на своей технике я установила следующее ПО: TeX Live, Pandoc. После чего открыла терминал и перешла в каталог курса сформированный при выполнении лабораторной работы
 №2: (рис. @fig:001).
-![Переход в каталог курса](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-10-11%2016-37-14.png){#fig:001 width=70%}
+![Переход в каталог курса](report/image/1.png){#fig:001 width=70%}
 
 2. Далее я обновила локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды git pull: (рис. @fig:002).
-![Обновление локального репозитория](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-10-11%2016-39-37.png){#fig:002 width=70%}
+![Обновление локального репозитория](report/image/2.png){#fig:002 width=70%}
 
 3. Потом я перешла в каталог с шаблоном отчета по лабораторной работе № 3: (рис. @fig:003).
-![Переход в каталог с шаблоном отчета по лабораторной работе 3](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-10-11%2016-40-36.png){#fig:003 width=70%}
+![Переход в каталог с шаблоном отчета по лабораторной работе 3](report/image/3.png){#fig:003 width=70%}
 
 4. Далее я провела компиляцию шаблона с использованием Makefile с помощью команды make:(рис. @fig:004).
-![Компиляция шаблона](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-10-12%2011-45-04.png){#fig:004 width=70%}
+![Компиляция шаблона](report/image/4.png){#fig:004 width=70%}
 
  После чего проверила корректность выполнения:(рис. @fig:005)
-![Проверка](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/mSf4DX-A-Kw.jpg){#fig:005 width=70%}
+![Проверка](report/image/5.png){#fig:005 width=70%}
 
 5. Я удалила полученный файлы с использованием Makefile. Для этого введя команду make clean: (рис. @fig:006).
-![Удаление файлов с помощью make clean](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/qxdJKmm9fAA.jpg){#fig:006 width=70%}
+![Удаление файлов с помощью make clean](report/image/6.png){#fig:006 width=70%}
 
 После этого проверила, что все файлы удалились: (рис. @fig:007).
-![Проверка](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/ElWivEtw3AY.jpg){#fig:007 width=70%}
+![Проверка](report/image/7.png){#fig:007 width=70%}
 
 6. Далее я открыла файл report.md c помощью текстового редактора и изучила его структуру:(рис. @fig:008)
-![Открытие файла](file:///home/spolina/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BA%D0%B8%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-10-12%2010-18-10.png){#fig:008 width=70%}
+![Открытие файла](report/image/8.png){#fig:008 width=70%}
 
 7. После этого я составила отчет и скомпилировала его с использованием Makefile
 
 8. Далее я выгрузила все на Github:(рис. @fig:009)
-![Выгружение на Github](file:///home/spolina/work/study/2023-2024/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0/arh-pc/labs/lab03/report/image/git){#fig:009 width=70%}
+![Выгружение на Github](report/image/9.png){#fig:009 width=70%}
 
 
 # Вывод
